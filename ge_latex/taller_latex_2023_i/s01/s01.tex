@@ -1,0 +1,42 @@
+% Preamble
+\documentclass{article}
+    % UTF-8 encoding
+    \usepackage[utf8]{inputenc}
+    % Languages
+    \usepackage[spanish]{babel}
+    % Geometry
+    \usepackage[a4paper]{geometry}
+    % Title | author | date | changes
+    \title{Session N° 1}
+    \author{
+        Jhon R. Ordoñez \\
+        \textcolor{blue}{rolyordonezleon@gmail.com}
+    }
+    \date{\today}
+    \usepackage{titling}
+        \setlength{\droptitle}{-1.5cm}
+        \setlength{\parindent}{0cm} % 1.27cm APA7
+    % Head | foot
+    \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhf{} % Clear predefined headers and footers
+        \lhead{2023}
+        \chead{My reading notes} 
+        \rhead{Jhon R. Ordoñez}
+        \cfoot{\thepage} 
+    % Texts
+    \usepackage{lipsum}
+    % Colors
+    \usepackage{xcolor}
+% Body
+\begin{document}
+    % Maketitle
+        \maketitle
+    % Thispagestyle
+        \thispagestyle{fancy}
+    % Section 1
+    \section{Introduction}
+        \lipsum[1]
+    
+\end{document}
+
