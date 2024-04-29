@@ -1,0 +1,60 @@
+% Preámbulo
+\documentclass[12pt,a4paper]{article} % amsart
+    % Paquetes
+    \usepackage[spanish]{babel} % Idioma
+    \usepackage{lipsum} % Textos 
+    \usepackage[left = 2.54cm, 
+                right = 2.54cm, 
+                top = 2.54cm, 
+                bottom = 2.54cm]{geometry} % Dimensiones de la hoja
+    \usepackage{amsmath} % math
+    \usepackage{multicol} % Generar columnas
+    \usepackage{graphicx} % Figuras
+    \usepackage{float} % Ubicación de las figuras
+    \usepackage{hyperref} % Referencias
+    % Título
+    \title{Mi primer artículo en \LaTeX}
+    \author{
+         Autor1\thanks{Es doctor en economía ... } \and Autor2\thanks{Es estudiante de economía ...}
+    }
+    \date{\today}
+% Cuerpo
+\begin{document}
+    % Llamar el título
+    \maketitle
+    % Resumen
+    \begin{abstract}
+        \begin{multicols}{2}
+            \lipsum[1] 
+        \end{multicols}
+    \end{abstract}
+    % Indice
+    \tableofcontents
+    % Sección 1
+    \section{Sección 1}
+        \lipsum[1]
+        % Subsección 1.1
+        \subsection{Subsección 1.1}
+            \lipsum[1]
+            % Sub-subsección 1.1.1
+            \subsubsection{Sub-sibsección 1.1.1}
+                \lipsum[1]
+        El pbi \footnote{El pbi es el producto bruto interno ...$pbi = c + i + g + x -m$
+        } peruano es ...
+    % Sección 2
+    \section{Sección 2}
+        Incluir figura ...
+        % Figura 1
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale = 0.5]{logo-unsch.jpg}
+            \caption{Logo UNSCH}
+            \label{fig:logo-unsch}
+        \end{figure}
+    % Sección 3
+    \section{Sección 3}
+        \lipsum[1].
+        Según lo mostrado en la figura (\ref{fig:logo-unsch})
+\end{document}
+
+
