@@ -9,8 +9,9 @@ y la comprensión de estos temas fundamentales en el campo de la economía.
 
 ## Cómo puedes contribuir
 Si identificas algun error u omisión en las notas de clase desarrolladas
-puedes comunicarte a los siguientes contantes. 
+puedes comunicarte a los siguientes contactos. 
 
 ## Contactos
-- Email: [rolyordonezleon@gmail.com] o [jhon.ordonez.09@unsch.edu.pe]
+- Email: [rolyordonezleon@gmail.com] o 
+         [jhon.ordonez.09@unsch.edu.pe]
 
