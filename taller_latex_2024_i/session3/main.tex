@@ -1,10 +1,21 @@
 %Preámbulo
-\documentclass[11pt]{beamer}
+\documentclass[11pt, aspectratio=169]{beamer}
     % Paquetes
     \usepackage{lipsum}
+    \usepackage{mathptm}
     %\usetheme{Madrid}
     %\usetheme{CambridgeUS}
-    \usetheme{JuanLesPins}
+    %\usetheme{JuanLesPins}
+    %\usetheme{Berlin}
+    %\usetheme{Antibes}
+    %\usetheme{Frankfurt}
+    %\usetheme{Darmstadt}
+    %\usetheme{Montpellier}
+    %\usetheme{Berkeley}
+    %\usetheme{Ilmenau}
+    %\usetheme{Rochester}
+    \usetheme{metropolis}
+	\setbeamertemplate{frame numbering}[fraction]
     
     % Título 
     \title{Mi primer beamer}
@@ -32,7 +43,10 @@
     \section{Introducción}
         % Slide 1.1
         \begin{frame}{Introducción}
-            \lipsum[1]
+            \begin{equation}
+            	x^{2}  + y^{2} = z^{2}
+            \end{equation}
+            
         \end{frame}
     % Sección 2
     \section{Metodología}
