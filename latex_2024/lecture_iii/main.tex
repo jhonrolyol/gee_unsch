@@ -1,0 +1,77 @@
+%Preámbulo
+\documentclass[11pt, aspectratio=169]{beamer}
+    % Paquetes
+    \usepackage{lipsum}
+    \usepackage{mathptm}
+    %\usetheme{Madrid}
+    %\usetheme{CambridgeUS}
+    %\usetheme{JuanLesPins}
+    %\usetheme{Berlin}
+    %\usetheme{Antibes}
+    %\usetheme{Frankfurt}
+    %\usetheme{Darmstadt}
+    %\usetheme{Montpellier}
+    %\usetheme{Berkeley}
+    %\usetheme{Ilmenau}
+    %\usetheme{Rochester}
+    \usetheme{metropolis}
+	\setbeamertemplate{frame numbering}[fraction]
+    
+    % Título 
+    \title{Mi primer beamer}
+    \subtitle{Sub título}
+    \author{Autor 1 \and Autor 2}
+    \institute[UNSCH]{
+        {\large Universidad Nacional de San Cristóbal de Huamanga} \\
+        {\large Facultad de Ciencias Económicas, Administrativas y Contables}\\
+        {\large Escuela Profesional de Economía}
+    }
+    \date{\today}
+
+% Cuerpo
+\begin{document}
+    % Slide 1.- Llamar el título
+    \begin{frame}
+        \maketitle
+    \end{frame}
+    % Slide 2.- Contenido o índice
+    \begin{frame}{índice}
+        \tableofcontents
+    \end{frame}
+
+    % Sección 1
+    \section{Introducción}
+        % Slide 1.1
+        \begin{frame}{Introducción}
+            \begin{equation}
+            	x^{2}  + y^{2} = z^{2}
+            \end{equation}
+            
+        \end{frame}
+    % Sección 2
+    \section{Metodología}
+        % Slide 2.1
+        \begin{frame}{Metodología}
+            \lipsum[1]
+        \end{frame}
+    % Sección 3
+    \section{Datos}
+        % Slide 3.1
+        \begin{frame}{Datos}
+            \lipsum[1]
+        \end{frame}
+    % Sección 4
+    \section{Conclusión}
+        % Slide 4.1
+        \begin{frame}{Conclusión}
+            \lipsum[1]. 
+        \end{frame}
+    % Bibliografía
+    \begin{frame}{Bibliografía}
+        \bibliography{biblio}
+        \bibliographystyle{apalike}
+            % Autores
+            \nocite{cameron-2010}
+    \end{frame}
+    
+\end{document}
