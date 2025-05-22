@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Introducción}{3}{0}{1}
+\beamer@sectionintoc {2}{Marco teórico}{8}{0}{2}
+\beamer@sectionintoc {3}{Metodología}{12}{0}{3}
+\beamer@sectionintoc {4}{Entornos BEAMER}{24}{0}{4}
+\beamer@sectionintoc {5}{Tablas}{30}{0}{5}
+\beamer@sectionintoc {6}{Columnas}{31}{0}{6}
+\beamer@sectionintoc {7}{Vínculos}{35}{0}{7}
